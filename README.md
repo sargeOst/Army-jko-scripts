@@ -8,12 +8,12 @@ step 3 next to console tab click on drop down menu (small grey triangle)
 step 4 scroll to the top of selection menu click on TOP ( should have JKO URL next to it
 step 5 insert script below and press enter
 step 6 after submitting code error paused in debugger will populate select the resume or play button next to error will resume to next lesson, Repeat then repeat steps 4-6 will only work on lessons not test or pretest.
-
-Script starts with API, and ends with submit()    
+    
  
 API_1484_11.SetValue('cmi.completion_status','completed');
 if (document.getElementsByName("courseheader").item(0).contentDocument.getElementById("c")) {
-document.getElementsByName("courseheader").item(0).contentDocument.getElementById("c").submit()
+  document.getElementsByName("courseheader").item(0).contentDocument.getElementById("c").submit()
+};
 
 
 
